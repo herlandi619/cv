@@ -710,6 +710,18 @@ video {
   max-width: 120px;
 }
 
+.max-w-\[400px\] {
+  max-width: 400px;
+}
+
+.max-w-\[200px\] {
+  max-width: 200px;
+}
+
+.max-w-\[300px\] {
+  max-width: 300px;
+}
+
 .origin-top-left {
   transform-origin: top left;
 }
@@ -1123,11 +1135,6 @@ body {
 }
 
 /* npx tailwindcss -i ./src/input.css -o ./css/output.css --watch */
-
-.hover\:rotate-45:hover {
-  --tw-rotate: 45deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
 
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
